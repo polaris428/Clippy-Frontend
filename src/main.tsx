@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Folders from './pages/Folders';
 import Welcome from './pages/Welcome/Welcome'
 import './styles/typography.css';
+import './styles/global.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {  
+  @apply text-gray-600 dark:text-white bg-gray-100 dark:bg-slate-600/20;
+}
+:root {
+  --primary-color: #FDBF0AFF;
+  --primary-color-hover : #e6b009;
+}

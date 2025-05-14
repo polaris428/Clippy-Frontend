@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   justify-content: space-between;
@@ -5,6 +6,7 @@
   padding: 4rem 6rem;   
   padding-left: 15%;
   gap: 4rem;
+
 }
 
 .left {
@@ -19,4 +21,10 @@
 .image {
   max-width: 50%;
   height: auto;
+}
+@media(min-width: 600px) {
+    .HomepageHero_heading__Nj93Y {
+        font:var(--typography-sans-800-semibold-font-weight) var(--typography-sans-800-semibold-font-size)/var(--typography-sans-800-semibold-line-height) var(--typography-sans-800-semibold-font-family);
+        letter-spacing: var(--typography-sans-800-semibold-letter-spacing)
+    }
 }
